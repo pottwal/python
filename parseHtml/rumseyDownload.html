@@ -1,0 +1,1911 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+
+
+
+
+
+
+
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<html>
+  <head>
+    <meta http-equiv="X-UA-Compatible" content="IE=8" />    
+    
+        
+    
+    
+    
+      <title>Embed This</title>  
+        
+    
+
+
+   
+
+  
+
+
+<!-- TOUCHCHANGE -->
+<script type="text/javascript" src="http://www.davidrumsey.com/luna/js/LunaTouch.js"></script>
+<meta name = "format-detection" content = "telephone=no">
+<!-- /TOUCHCHANGE -->
+
+
+
+
+    
+    
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+	<script type="text/javascript" src="http://www.davidrumsey.com/luna/js/yui-2.8.2-min.js"></script>
+<script type="text/javascript" src="http://www.davidrumsey.com/luna/js/jsHelper.js"></script>
+<script type="text/javascript" src="http://www.davidrumsey.com/luna/js/insight.js"></script>
+<script type="text/javascript" src="http://www.davidrumsey.com/luna/js/ElementEffects.js"></script>
+<script type="text/javascript" src="http://www.davidrumsey.com/luna/js/ShareThis.js"></script>
+<script type="text/javascript" src="http://www.davidrumsey.com/luna/js/HelpControl.js"></script>
+<script type="text/javascript" src="http://www.davidrumsey.com/luna/js/prototype.1.6.0.js"></script>
+<script>
+
+var loader = new YAHOO.util.YUILoader
+({ 
+  
+    
+	
+	  require: ["utilities","event","animation","connection","container","dragdrop","logger","slider","colorpicker",
+       "EnhancedAdvancedSearch","fixedDiv","HideablePanel","ImageHandler","ImagePanel","ImagePanelControls",
+       "ImagePanelInformation","ImagePanelManager","ImagesPanel","Annotation","AnnotationManager","MediaGroupPanelManager","MediaImagesPanel",
+       "OnImagePanelControls","EMOProcessor","EMOWrapperFlickr","ExternalMediaObject","FlickrLicense","QuickSlideControls","rgbcolor",
+       "SlideComposite","Slider","slideShow","SlidesPanel","TemplatedPanel","TemplatedPanelControls",
+       "ThumbnailPanner","TreeControl","webtoolkit","flashembed"],
+	
+  
+  
+  loadOptional: true,
+ 
+  // The function to call when all script/css resources have been loaded
+  onSuccess: function() 
+  {
+    YAHOO.util.Event.onDOMReady(function (){
+      var meta = document.createElement("meta");
+      meta.id="ScriptsLoaded";
+      document.getElementsByTagName("head")[0].appendChild(meta);
+    });
+  },
+
+  // Configure the Get utility to timeout after 180 seconds for any given node insert
+  timeout: 180000,
+
+  // Combine YUI files into a single request (per file type) by using the Yahoo! CDN combo service.
+  combine: true
+});
+
+loader.addModule({name:"EnhancedAdvancedSearch",type:"js",varName:"_EnhancedAdvancedSearch",fullpath:"http://www.davidrumsey.com/luna/js/EnhancedAdvancedSearch.js"});  
+loader.addModule({name:"fixedDiv",type:"js",varName:"_fixedDiv",fullpath:"http://www.davidrumsey.com/luna/js/fixedDiv.js"});  
+loader.addModule({name:"HideablePanel",type:"js",varName:"_HideablePanel",fullpath:"http://www.davidrumsey.com/luna/js/HideablePanel.js"});  
+loader.addModule({name:"ImageHandler",type:"js",varName:"_ImageHandler",fullpath:"http://www.davidrumsey.com/luna/js/ImageHandler.js"});  
+loader.addModule({name:"ImagePanel",type:"js",varName:"_ImagePanel",fullpath:"http://www.davidrumsey.com/luna/js/ImagePanel.js"});  
+loader.addModule({name:"ImagePanelControls",type:"js",varName:"_ImagePanelControls",fullpath:"http://www.davidrumsey.com/luna/js/ImagePanelControls.js"});  
+loader.addModule({name:"ImagePanelInformation",type:"js",varName:"_ImagePanelInformation",fullpath:"http://www.davidrumsey.com/luna/js/ImagePanelInformation.js"});  
+loader.addModule({name:"ImagePanelManager",type:"js",varName:"_ImagePanelManager",fullpath:"http://www.davidrumsey.com/luna/js/ImagePanelManager.js"});  
+loader.addModule({name:"ImagesPanel",type:"js",varName:"_ImagesPanel",fullpath:"http://www.davidrumsey.com/luna/js/ImagesPanel.js"});  
+loader.addModule({name:"Annotation",type:"js",varName:"_Annotation",fullpath:"http://www.davidrumsey.com/luna/js/Annotation.js"});  
+loader.addModule({name:"AnnotationManager",type:"js",varName:"_AnnotationManager",fullpath:"http://www.davidrumsey.com/luna/js/AnnotationManager.js"});  
+loader.addModule({name:"MediaGroupPanelManager",type:"js",varName:"_MediaGroupPanelManager",fullpath:"http://www.davidrumsey.com/luna/js/MediaGroupPanelManager.js"});  
+loader.addModule({name:"MediaImagesPanel",type:"js",varName:"_MediaImagesPanel",fullpath:"http://www.davidrumsey.com/luna/js/MediaImagesPanel.js"});  
+loader.addModule({name:"OnImagePanelControls",type:"js",varName:"_OnImagePanelControls",fullpath:"http://www.davidrumsey.com/luna/js/OnImagePanelControls.js"});  
+loader.addModule({name:"EMOProcessor",type:"js",varName:"_EMOProcessor",fullpath:"http://www.davidrumsey.com/luna/js/onlineMediaSearch/EMOProcessor.js"});  
+loader.addModule({name:"EMOWrapperFlickr",type:"js",varName:"_EMOWrapperFlickr",fullpath:"http://www.davidrumsey.com/luna/js/onlineMediaSearch/EMOWrapperFlickr.js"});  
+loader.addModule({name:"ExternalMediaObject",type:"js",varName:"_ExternalMediaObject",fullpath:"http://www.davidrumsey.com/luna/js/onlineMediaSearch/ExternalMediaObject.js"});  
+loader.addModule({name:"FlickrLicense",type:"js",varName:"_FlickrLicense",fullpath:"http://www.davidrumsey.com/luna/js/onlineMediaSearch/FlickrLicense.js"});  
+loader.addModule({name:"QuickSlideControls",type:"js",varName:"_QuickSlideControls",fullpath:"http://www.davidrumsey.com/luna/js/QuickSlideControls.js"});  
+loader.addModule({name:"rgbcolor",type:"js",varName:"_rgbcolor",fullpath:"http://www.davidrumsey.com/luna/js/rgbcolor.js"});  
+loader.addModule({name:"SlideComposite",type:"js",varName:"_SlideComposite",fullpath:"http://www.davidrumsey.com/luna/js/SlideComposite.js"});  
+loader.addModule({name:"Slider",type:"js",varName:"_Slider",fullpath:"http://www.davidrumsey.com/luna/js/Slider.js"});  
+loader.addModule({name:"slideShow",type:"js",varName:"_slideShow",fullpath:"http://www.davidrumsey.com/luna/js/slideShow/slideShow.js"});  
+loader.addModule({name:"SlidesPanel",type:"js",varName:"_SlidesPanel",fullpath:"http://www.davidrumsey.com/luna/js/SlidesPanel.js"});  
+loader.addModule({name:"TemplatedPanel",type:"js",varName:"_TemplatedPanel",fullpath:"http://www.davidrumsey.com/luna/js/TemplatedPanel.js"});  
+loader.addModule({name:"TemplatedPanelControls",type:"js",varName:"_TemplatedPanelControls",fullpath:"http://www.davidrumsey.com/luna/js/TemplatedPanelControls.js"});  
+loader.addModule({name:"ThumbnailPanner",type:"js",varName:"_ThumbnailPanner",fullpath:"http://www.davidrumsey.com/luna/js/ThumbnailPanner.js"});  
+loader.addModule({name:"TreeControl",type:"js",varName:"_TreeControl",fullpath:"http://www.davidrumsey.com/luna/js/TreeControl.js"});  
+loader.addModule({name:"webtoolkit",type:"js",varName:"_webtoolkit",fullpath:"http://www.davidrumsey.com/luna/js/webtoolkit.js"});  
+loader.addModule({name:"flashembed",type:"js",varName:"_flashembed",fullpath:"http://www.davidrumsey.com/luna/js/../flowplayer/extras/flashembed.min.js"});  
+
+loader.insert();
+</script>
+
+
+	<link type="text/css" rel="stylesheet" href="http://www.davidrumsey.com/luna/js/build/container/assets/container.css" />
+
+
+    
+    
+    <link rel="stylesheet" href="http://www.davidrumsey.com/luna/themes/default/default.css" type="text/css" />
+
+            
+    
+    
+    <link rel="stylesheet" href="http://www.davidrumsey.com/luna/css/structure.css" type="text/css" />
+
+    <script type="text/javascript" src="http://s7.addthis.com/js/250/addthis_widget.js#async=1"></script>
+    
+    
+        
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    <script type="text/javascript">
+      window.windowName = 'LUNA';
+      window.name = 'LUNA';
+
+      // some variables used throughout the site (insight.js)
+      var workspaceUrl = 'http://www.davidrumsey.com/luna/servlet/workspace';
+      var addImageToWorkspaceUrl = '/luna/servlet/workspace/addImageToWorkspace;jsessionid=9394D5183B1D623500E91EDB89556423';
+      var addImageToDefaultGroupUrl = '/luna/servlet/user/groups/addToDefault;jsessionid=9394D5183B1D623500E91EDB89556423';
+      var addPageToDefaultGroupUrl = '/luna/servlet/media/book/addPageToDefaultGroup;jsessionid=9394D5183B1D623500E91EDB89556423';
+      var addImageToGroupUrl = '/luna/servlet/detail/submit;jsessionid=9394D5183B1D623500E91EDB89556423';
+      var deleteGroupUrl = '/luna/servlet/user/groups/delete/submit;jsessionid=9394D5183B1D623500E91EDB89556423';
+      var deletePresentationUrl = '/luna/servlet/user/presentations/delete/submit;jsessionid=9394D5183B1D623500E91EDB89556423';
+      var deleteFolderUrl = '/luna/servlet/user/folders/delete/submit;jsessionid=9394D5183B1D623500E91EDB89556423';
+      var loginAddMediaToDefaultGroupUrl = '/luna/servlet/login/addMediaToDefaultGroup;jsessionid=9394D5183B1D623500E91EDB89556423';
+      var loginAddPageToDefaultGroupUrl = '/luna/servlet/login/addPageToDefaultGroup;jsessionid=9394D5183B1D623500E91EDB89556423';
+      var addEMOToDefaultGroupUrl = '/luna/servlet/user/saveExternalObjectData;jsessionid=9394D5183B1D623500E91EDB89556423';
+      var changeDefaultGroupUrl = '/luna/servlet/user/group/default;jsessionid=9394D5183B1D623500E91EDB89556423';
+      var exportMediaUrl = '/luna/servlet/detail/export;jsessionid=9394D5183B1D623500E91EDB89556423';
+      var exportMediaGroupUrl = '/luna/servlet/groups/export;jsessionid=9394D5183B1D623500E91EDB89556423';
+      var addTinyUrlUrl = '/luna/servlet/s/addTinyUrl;jsessionid=9394D5183B1D623500E91EDB89556423';
+
+      // these will need to be used both in the mainNav and in the quick search
+      var helpfulTipControl = null;
+      var helpControl = null;
+
+    </script>
+
+    <link rel="SHORTCUT ICON" href="http://www.davidrumsey.com/luna/images/favicon.ico" />
+    
+    
+    <script type="text/javascript">var _gaq = _gaq || [];_gaq.push(['_setAccount', 'UA-1674105-1']);_gaq.push(['_trackPageview']);(function() {var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);})();</script>
+        
+  </head>
+  <body>
+    <div id="PageContainer">
+      
+        <div id="Header">
+          <table border="0" cellpadding="0" cellspacing="0" width="100%" height="100%">
+            <tr>
+              
+                <td valign="top" align="left" width="99%">
+
+
+
+
+
+
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+  
+    
+  
+
+
+<script type="text/javascript">
+  // ie6 default group menu issue
+  function ie6CssHover(el) {
+    var ie6CssEls = document.getElementById("DefaultGroupMenu").getElementsByTagName(el);
+    for (var i=0; i<ie6CssEls.length; i++) 
+    {
+      ie6CssEls[i].onmouseover = function() 
+      {
+        this.className+=" hover";
+      }
+      ie6CssEls[i].onmouseout = function() 
+      {
+        this.className=this.className.replace(new RegExp(" hover\\b"), "");
+      }
+    }
+  }
+  function ie6CssStart() 
+  {
+    ie6CssHover("ul");
+    ie6CssHover("li");
+  }
+
+  if ( ( /msie|MSIE 6/.test(navigator.userAgent) ) && (window.attachEvent) )
+    window.attachEvent("onload", ie6CssStart);
+  
+</script>
+
+
+
+
+  
+    
+    
+  
+  
+
+
+
+
+
+<div id="HeaderLogo" style="background-image: url( http://www.davidrumsey.com:8486/graphics/luna-RUMSEY-8-NA.jpg);">
+  <a id="HeaderLink" href="http://www.davidrumsey.com"></a>
+  <div title="Credential ID: 2">
+    <span>
+      Welcome Anonymous
+    </span>
+
+    
+    
+      
+      
+        |
+        <a class="loginLink" href="http://www.davidrumsey.com/luna/servlet/login" title="Click to login">Login</a>
+        
+          |
+          <a class="registerLink" href="http://www.davidrumsey.com/luna/servlet/register" title="Click to register">Register</a>
+        
+      
+    
+    <br>
+        
+    
+
+  </div>
+</div></td>
+              
+              
+                <td valign="top" align="right">
+
+
+
+
+
+
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<script type="text/javascript">
+
+  YAHOO.util.Event.addListener( window, "load", createHelpfulTipControl );
+  YAHOO.util.Event.addListener( window, "load", createHelpControl );
+  YAHOO.util.Event.onAvailable( "ScriptsLoaded", initializeQuickSearch );
+  
+  YAHOO.util.Event.addListener( window, "resize", updateAdvancedSearchPosition );
+
+  function createHelpfulTipControl()
+  {
+    helpfulTipControl = new HelpControl();
+    helpfulTipControl.setShowTip('false');
+    helpfulTipControl.setAnimate( false );
+    helpfulTipControl.render('http://www.davidrumsey.com/luna/servlet/widget/detail/RUMSEY~8~1~233531~5509640:Map-of-Upper-Egypt,-drawn-from-vari?trs=387&widgetType=detail&qvq=q%3Aegypt%3Bsort%3APub_List_No_InitialSort%2CPub_Date%2CPub_List_No%2CSeries_No%3Blc%3ARUMSEY%7E8%7E1&embedded=true&mi=3', 'http://www.lunaimaging.com/support/6_0/LUNA/en/Embed_This.htm', true);
+    helpfulTipControl.setShowTipParameter('&showTip=false');
+    helpfulTipControl.setHelpPopObject(helpfulTipControl);
+  }
+
+  function createHelpControl()
+  {
+    helpControl = new HelpControl();
+    helpControl.setAnimate( false );
+    helpControl.render( null, 'http://www.lunaimaging.com/support/6_0/LUNA/en/Embed_This.htm', false );
+    helpControl.setHelpObject(helpControl);
+  }
+
+  var mediaSearchOperators =
+  [
+    {displayName: 'Equals', value:'='},
+    {displayName: 'Starts With', value:'^'},
+    {displayName: 'Similar To', value:'|'}
+  ];
+  var mediaSearchDateOperators =
+  [
+    {displayName: 'Equals', value:'='},
+    {displayName: 'Between', value:'...'}
+  ]
+  var advanceSearchHideablePanel = null;
+  var enhancedSearchHideablePanel = null;
+  var advanceSearchContainer = null;
+  var qsRenderReference = null;
+  var allCollections = [{"collectionType":"legacy","groupName":"Rumsey3x","collectionId":"8","groupKeyCode":"rumsey3x","sessionCodeKey":"rumsey3x","type":0,"userCollection":8,"id":"RUMSEY~8~1","uniqueCollectionId":1,"totalMediaCount":48325,"abbreviatedName":"RUMSEY~8~1","sessionGroupName":"Rumsey3x","profileId":13,"userId":15,"userName":"lunaadmin","serverId":13,"standardName":"David Rumsey Historical Map Collection","collectionName":"David Rumsey Historical Map Collection","institutionId":"RUMSEY","serverAddress":"www.davidrumsey.com","sortOrder":0,"countryCode":"US","medeEnabled":false,"groupProfileId":13,"publicCollection":false,"languageCode":"en","serverPort":2870,"virtualCollection":false}];
+  var collectionsInContext = [{"collectionType":"legacy","groupName":"Rumsey3x","collectionId":"8","groupKeyCode":"rumsey3x","sessionCodeKey":"rumsey3x","type":0,"userCollection":8,"id":"RUMSEY~8~1","uniqueCollectionId":1,"totalMediaCount":48325,"abbreviatedName":"RUMSEY~8~1","sessionGroupName":"Rumsey3x","profileId":13,"userId":15,"userName":"lunaadmin","serverId":13,"standardName":"David Rumsey Historical Map Collection","collectionName":"David Rumsey Historical Map Collection","institutionId":"RUMSEY","serverAddress":"www.davidrumsey.com","sortOrder":0,"countryCode":"US","medeEnabled":false,"groupProfileId":13,"publicCollection":false,"languageCode":"en","serverPort":2870,"virtualCollection":false}];
+  var timeoutMilli = 47000; // 10 seconds
+    
+  function initializeQuickSearch()
+  {
+    var urlQueryStr = window.location.search.substring(1); 
+    
+    if ( document.forms[0].q.value.length == 0) 
+    {
+      var queryRe = /qvq=q:([^;&]+);/g;
+
+      var queryArray = queryRe.exec(urlQueryStr);
+ 
+      if (queryArray && queryArray.length > 1)
+      {
+        document.forms[0].q.value = decodeURIComponent(queryArray[1]).replace(/\+/g,' ').strip();
+      }
+    }
+    
+    // continue if we have a container
+    advanceSearchContainer = $( 'QuickSearch' );
+    qsRenderReference = $( 'AdvanceSearchButton' );
+    if( !$( 'QuickSearchA' ).checked && !$( 'fullTextSearch' ).checked )
+    {
+      $( 'QuickSearchA' ).checked = true;
+    }
+    if( ! enhancedSearchHideablePanel ) 
+    {
+      if( advanceSearchContainer )
+      {
+        // create a new panel and associate with the form rendered below in html
+        enhancedSearchHideablePanel = new EnhancedAdvancedSearch();
+        
+        if ("".length >0)
+        {
+          enhancedSearchHideablePanel.setSort( "" );
+        }
+        else if ("Pub_List_No_InitialSort,Pub_Date,Pub_List_No,Series_No".length >0)
+        {
+          enhancedSearchHideablePanel.setSort( "Pub_List_No_InitialSort,Pub_Date,Pub_List_No,Series_No" );
+        }
+        //helpfulTipControl.setAdvancedSearchObject( advanceSearchHideablePanel );
+        
+        enhancedSearchHideablePanel.setSearchUrl( '/luna/servlet/view/search;jsessionid=9394D5183B1D623500E91EDB89556423' );
+        enhancedSearchHideablePanel.setAnimate( false );
+        enhancedSearchHideablePanel.setRequestMediaFieldsFunction( requestMediaFields );
+        enhancedSearchHideablePanel.setRequestSuggestionFunction( requestSuggestions );
+        enhancedSearchHideablePanel.setAlternateSearchEnabledFunction( alternateSearchEnabled );
+        enhancedSearchHideablePanel.setToggleSearchFunction( toggleSearch );
+        enhancedSearchHideablePanel.setMediaCollections( allCollections );
+        enhancedSearchHideablePanel.setMediaSearchOperators( mediaSearchOperators );
+        enhancedSearchHideablePanel.setMediaSearchDateOperators( mediaSearchDateOperators );
+        enhancedSearchHideablePanel.render( advanceSearchContainer, qsRenderReference );
+        enhancedSearchHideablePanel.setSelectedCollections( collectionsInContext );
+        // helpTip functions
+        enhancedSearchHideablePanel.setHelpObjects(helpfulTipControl, helpControl);
+        enhancedSearchHideablePanel.setAdvancedSearchHelpUrl( 'http://www.lunaimaging.com/support/6_0/LUNA/en/Advanced_Search.htm' );
+        enhancedSearchHideablePanel.setAdvancedSearchShowTip('false');
+        enhancedSearchHideablePanel.setHelpUrl('http://www.lunaimaging.com/support/6_0/LUNA/en/Embed_This.htm')
+        enhancedSearchHideablePanel.setShowTip('false');
+        //helpfulTipControl.setAdvancedSearchObject( advanceSearchHideablePanel );
+      }
+    }
+    if((alternateSearchEnabled()) && ( ! advanceSearchHideablePanel ))
+    {
+      if( advanceSearchContainer )
+      {
+        // create a new panel and associate with the form rendered below in html
+        advanceSearchHideablePanel = new AdvanceMediaSearch();
+        
+        if ("".length >0)
+        {
+          advanceSearchHideablePanel.setSort( "" );
+        }
+        else if ("Pub_List_No_InitialSort,Pub_Date,Pub_List_No,Series_No".length >0)
+        {
+          advanceSearchHideablePanel.setSort( "Pub_List_No_InitialSort,Pub_Date,Pub_List_No,Series_No" );
+        }        
+        advanceSearchHideablePanel.setSearchUrl( '/luna/servlet/view/search;jsessionid=9394D5183B1D623500E91EDB89556423' );
+        advanceSearchHideablePanel.setAnimate( false );
+        advanceSearchHideablePanel.setRequestMediaFieldsFunction( requestMediaFieldsForAlternateSearch );
+        advanceSearchHideablePanel.setRequestSuggestionFunction( requestSuggestionsForAlternateSearch );
+        advanceSearchHideablePanel.setToggleSearchFunction( toggleSearch );
+        advanceSearchHideablePanel.setMediaCollections( allCollections );
+        advanceSearchHideablePanel.setMediaSearchOperators( mediaSearchOperators );
+        advanceSearchHideablePanel.setMediaSearchDateOperators( mediaSearchDateOperators );
+        advanceSearchHideablePanel.render( advanceSearchContainer, qsRenderReference );
+        advanceSearchHideablePanel.setSelectedCollections( collectionsInContext );
+        // helpTip functions
+        advanceSearchHideablePanel.setHelpObjects(helpfulTipControl, helpControl);
+        advanceSearchHideablePanel.setAdvancedSearchHelpUrl( 'http://www.lunaimaging.com/support/6_0/LUNA/en/Advanced_Search.htm' );
+        advanceSearchHideablePanel.setAdvancedSearchShowTip('false');
+        advanceSearchHideablePanel.setHelpUrl('http://www.lunaimaging.com/support/6_0/LUNA/en/Embed_This.htm')
+        advanceSearchHideablePanel.setShowTip('false');
+        helpfulTipControl.setAdvancedSearchObject( advanceSearchHideablePanel );
+      }
+    }
+  }
+
+  function updateAdvancedSearchPosition()
+  {
+    if( enhancedSearchHideablePanel && !enhancedSearchHideablePanel.mIsHidden )
+    {
+      enhancedSearchHideablePanel.hide();
+      enhancedSearchHideablePanel.show();
+    }
+  }
+  
+  function requestMediaFields( mediaCollections )
+  {
+    var mediaCollectionIds = mediaCollections.join(',');
+
+    // constrcut url
+    var sUrl = '/luna/servlet/search/fields;jsessionid=9394D5183B1D623500E91EDB89556423';
+    sUrl = jshAppendParameter( sUrl, 'collectionIds', mediaCollectionIds , true );
+
+    var callback =
+    {
+      success: setMediaFields,
+      failure: setMediaFields,
+      timeout: timeoutMilli
+    }
+
+    // make call
+    var transaction = YAHOO.util.Connect.asyncRequest( 'GET', sUrl, callback, null );
+  }
+
+  function setMediaFields( o )
+  {
+    if( o && o.responseText )
+    {
+      var mediaFields = jshEvalJSON( o.responseText, 1 );
+      if( mediaFields && mediaFields.statusCode && ( mediaFields.statusCode != 1 ) )
+      {
+        //messageToUser( mediaFields );
+      }
+      else if( mediaFields )
+      {
+        if( enhancedSearchHideablePanel )
+        {
+          enhancedSearchHideablePanel.setMediaFields( mediaFields );
+        }
+      }
+    }
+  }
+  
+  function requestMediaFieldsForAlternateSearch( mediaCollections )
+  {
+    var mediaCollectionIds = mediaCollections.join(',');
+
+    // constrcut url
+    var sUrl = '/luna/servlet/search/fields;jsessionid=9394D5183B1D623500E91EDB89556423';
+    sUrl = jshAppendParameter( sUrl, 'collectionIds', mediaCollectionIds , true );
+
+    var callback =
+    {
+      success: setMediaFieldsForAlternateSearch,
+      failure: setMediaFieldsForAlternateSearch,
+      timeout: timeoutMilli
+    }
+
+    // make call
+    var transaction = YAHOO.util.Connect.asyncRequest( 'GET', sUrl, callback, null );
+  }
+
+  function setMediaFieldsForAlternateSearch( o )
+  {
+    if( o && o.responseText )
+    {
+      var mediaFields = jshEvalJSON( o.responseText, 1 );
+      if( mediaFields && mediaFields.statusCode && ( mediaFields.statusCode != 1 ) )
+      {
+        //messageToUser( mediaFields );
+      }
+      else if( mediaFields )
+      {
+        if( advanceSearchHideablePanel )
+        {
+          advanceSearchHideablePanel.setMediaFields( mediaFields );
+        }
+      }
+    }
+  }
+
+  function requestSuggestions( input, mediaFieldName, mediaCollections )
+  {
+    if ((mediaFieldName ||  mediaFieldName == "")  && input && mediaCollections)
+    {
+      var mediaCollectionIds = mediaCollections.join(',');
+
+      // constrcut url
+      var requestSuggestionsUrl = '/luna/servlet/search/suggestions;jsessionid=9394D5183B1D623500E91EDB89556423';
+      var sUrl = requestSuggestionsUrl;
+      sUrl = jshAppendParameter( sUrl, 'collectionIds', mediaCollectionIds , true );
+      sUrl = jshAppendParameter( sUrl, 'term', input , false );
+      sUrl = jshAppendParameter( sUrl, 'mediaFieldName', mediaFieldName, false );
+
+      //alert( sUrl );
+
+      var callback =
+      {
+        success: setSuggestions,
+        failure: setSuggestions,
+        argument: [input, mediaFieldName, mediaCollections],
+        timeout: timeoutMilli
+      }
+
+      // make call
+      var transaction = YAHOO.util.Connect.asyncRequest( 'GET', sUrl, callback, null );
+    }
+  }
+
+  function setSuggestions( o )
+  {
+    if( o && o.responseText )
+    {
+      var suggestions = jshEvalJSON( o.responseText, -1 );
+      if( suggestions && suggestions.statusCode && ( suggestions.statusCode != 1 ) )
+      {
+        //messageToUser( suggestions );
+      }
+      else if( suggestions )
+      {
+        if( enhancedSearchHideablePanel )
+        {
+          enhancedSearchHideablePanel.setSuggestions( suggestions, o.argument[0], o.argument[1], o.argument[2] );
+        }
+      }
+    }
+  }
+  
+  function requestSuggestionsForAlternateSearch( input, mediaFieldName, mediaCollections )
+  {
+    if ((mediaFieldName ||  mediaFieldName == "")  && input && mediaCollections)
+    {
+      var mediaCollectionIds = mediaCollections.join(',');
+
+      // constrcut url
+      var requestSuggestionsUrl = '/luna/servlet/search/suggestions;jsessionid=9394D5183B1D623500E91EDB89556423';
+      var sUrl = requestSuggestionsUrl;
+      sUrl = jshAppendParameter( sUrl, 'collectionIds', mediaCollectionIds , true );
+      sUrl = jshAppendParameter( sUrl, 'term', input , false );
+      sUrl = jshAppendParameter( sUrl, 'mediaFieldName', mediaFieldName, false );
+
+      //alert( sUrl );
+
+      var callback =
+      {
+        success: setSuggestionsForAlternateSearch,
+        failure: setSuggestionsForAlternateSearch,
+        argument: [input, mediaFieldName, mediaCollections],
+        timeout: timeoutMilli
+      }
+
+      // make call
+      var transaction = YAHOO.util.Connect.asyncRequest( 'GET', sUrl, callback, null );
+    }
+  }
+
+  function setSuggestionsForAlternateSearch( o )
+  {
+    if( o && o.responseText )
+    {
+      var suggestions = jshEvalJSON( o.responseText, -1 );
+      if( suggestions && suggestions.statusCode && ( suggestions.statusCode != 1 ) )
+      {
+        //messageToUser( suggestions );
+      }
+      else if( suggestions )
+      {
+        if( advanceSearchHideablePanel )
+        {
+          advanceSearchHideablePanel.setSuggestions( suggestions, o.argument[0], o.argument[1], o.argument[2] );
+        }
+      }
+    }
+  }
+  
+  function alternateSearchEnabled()
+  {
+    
+      
+      
+        return false;
+      
+    
+  }
+  
+  function toggleSearch()
+  {
+    advanceSearchHideablePanel.toggle();
+    enhancedSearchHideablePanel.toggle();
+  }
+
+</script>
+
+<div id="QuickSearch">
+  <form name="quickSearchForm" method="get" action="/luna/servlet/view/search;jsessionid=9394D5183B1D623500E91EDB89556423">
+    <div>
+        <span class="fullTextOption"><input class="fullTextCheckbox" type="radio"  name="QuickSearchA" value="QuickSearchA" id="QuickSearchA" onclick="fullTextSearch.checked = false" />Search Catalog Data</span>
+        <span class="fullTextOption"><input class="fullTextCheckbox" type="radio"  name="fullTextSearch" value="fullTextSearch" id="fullTextSearch" onclick="QuickSearchA.checked = false" />Catalog Data & text in Documents</span>
+      </div>
+      <div>
+        <span class="QuickSearchOption">
+         <input type="text" name="q" id="q" value="" />
+           
+             
+              
+                 <input type="hidden" name="sort" id="sort" value="Pub_List_No_InitialSort,Pub_Date,Pub_List_No,Series_No" />
+              
+           
+         <input class="submitButton" type="submit" name="search" value="Search" />
+        </span>
+     </div>   
+    <div>
+    <span class="AdvancedSearchOption"><a id="AdvanceSearchButton" href="javascript: var toggleAdvanceSearch" onClick="enhancedSearchHideablePanel.toggle(); return false;" title="Advanced Search">Advanced Search</a></span>
+    <div>
+  </form>
+  </div></td>
+              
+            </tr>
+            <tr>
+              
+                <td valign="middle" colspan="2">
+
+
+
+
+
+
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!--  TOUCHCHANGE -->
+
+<!-- /TOUCHCHANGE -->
+
+
+
+
+
+
+
+
+
+
+  
+
+
+
+
+
+  
+    
+  
+  
+
+
+
+
+  
+    
+  
+  
+
+
+
+
+        
+
+
+
+
+
+
+  
+  
+    
+  
+
+
+  
+  
+    
+  
+
+
+
+<script language='javascript'> 
+   YAHOO.util.Event.addListener( window, "load", createShareThis );; 
+   YAHOO.util.Event.addListener( window, "load", setHelpControlListner );
+
+   addthis_config = { ui_header_color:'#000000' };
+   
+   function createHelpfulTipControl()
+   {
+     helpfulTipControl = new HelpControl();
+     helpfulTipControl.setShowTip('false');
+     helpfulTipControl.setAnimate( false );
+     helpfulTipControl.render('http://www.davidrumsey.com/luna/servlet/widget/detail/RUMSEY~8~1~233531~5509640:Map-of-Upper-Egypt,-drawn-from-vari?trs=387&widgetType=detail&qvq=q%3Aegypt%3Bsort%3APub_List_No_InitialSort%2CPub_Date%2CPub_List_No%2CSeries_No%3Blc%3ARUMSEY%7E8%7E1&embedded=true&mi=3', 'http://www.lunaimaging.com/support/6_0/LUNA/en/Embed_This.htm', true);
+     helpfulTipControl.setShowTipParameter('&showTip=false');
+     helpfulTipControl.setHelpPopObject(helpfulTipControl);
+   }
+
+   function createHelpControl()
+   {
+     helpControl = new HelpControl();
+     helpControl.setAnimate( false );
+     helpControl.render( null, 'http://www.lunaimaging.com/support/6_0/LUNA/en/Embed_This.htm', false );
+     helpControl.setHelpObject(helpControl);
+   }
+   
+   function setHelpControlListner()
+   {
+     if (! helpControl) createHelpControl();
+
+     if (! helpfulTipControl) createHelpfulTipControl();
+
+     helpControl.setListnerSource($('HelpControl')) ;
+     helpfulTipControl.setListnerSource($('HelpControl')) ;
+   }
+      
+   var shareThis = null;
+   function createShareThis()
+   {
+     shareThis = new ShareThis();
+     shareThis.render( $('ShareThisMenuItem'), 'http://www.davidrumsey.com/luna/servlet/widget/detail/RUMSEY~8~1~233531~5509640:Map-of-Upper-Egypt,-drawn-from-vari?trs=387&widgetType=detail&qvq=q%3Aegypt%3Bsort%3APub_List_No_InitialSort%2CPub_Date%2CPub_List_No%2CSeries_No%3Blc%3ARUMSEY%7E8%7E1&embedded=true&mi=3' );   
+     shareThis.setBaseUrl( 'http://www.davidrumsey.com/luna/servlet' );
+     shareThis.setShareWidgetScriptUrl( 'http://s7.addthis.com/js/250/addthis_widget.js#async=1' );
+     shareThis.setShareWidgetImgSrcUrl( 'http://s7.addthis.com/static/btn/v2/lg-share-en.gif' );
+     shareThis.setShareWidgetImgHrefUrl( 'http://www.addthis.com/bookmark.php?v=20' );
+        
+     
+     
+     
+     
+   }
+           
+   dropDown = function()
+   {
+     if (document.all&&document.getElementById)
+     {
+        navRoot = document.getElementById("MainNavSubmenus");
+        for (i=0; i<navRoot.childNodes.length; i++)
+        {
+          node = navRoot.childNodes[i];
+          if (node.nodeName=="LI")
+          {
+            node.onmouseover=function()
+            {
+              this.className+=" over";
+            }
+            node.onmouseout=function()
+            {
+              this.className=this.className.replace(" over", "");
+            }
+          }
+        }
+      }
+     }
+  // make sure we're not calling this method twice
+  var oldOnload = new String(window.onload);
+  var newString = oldOnload.substring(oldOnload.indexOf('{') + 1, oldOnload.indexOf('}') - 1 );
+  if(newString == null
+    || newString == ""
+    || newString.substring(newString.indexOf('s'), newString.indexOf(';')) != "dropDown()")
+  {
+    window.onload = dropDown;
+  }
+</script>
+
+<div id="MainNav">
+  <ul id="MainNavSubmenus">
+    
+    
+    <li>
+      <a style="padding:1px 0 0 0;" href="" title="Back to previous page" onClick="parent.history.back(); return false;" onMouseOver="self.status='Back'; return true;"><img style="border:0px;" src="/luna/images/default/icon-browser-back-brown.gif"/></a>
+      <a style="padding:1px 0 0 0;" href="" title="Move to next page" onClick="parent.history.forward(); return false;" onMouseOver="self.status='Forward'; return true;"><img style="border:0px;" src="/luna/images/default/icon-browser-forward-brown.gif"/></a>
+    </li>
+    
+    <li>
+      
+      
+      
+      
+      
+        
+        
+          
+        
+        <a class="" href="http://www.davidrumsey.com/luna/servlet/RUMSEY~8~1" title="" onClick="this.blur()">Collections</a>
+      
+      <ul id="HomeSub">
+        
+        
+        
+        
+        
+        
+          
+        
+        
+          <li>
+            
+            <a href="http://www.davidrumsey.com/luna/servlet/allCollections" class="selected" title="Browse All Collections">
+              All Collections
+            </a>
+          </li>
+          
+            
+            
+              <li>
+                
+                <a href="http://www.davidrumsey.com/luna/servlet/RUMSEY~8~1" class="" title="Browse David Rumsey Historical Map Collection">David Rumsey Historical Map Collection
+                  
+                </a> 
+              </li>
+            
+          
+        
+        
+        
+        
+        
+        
+        
+        
+        
+      </ul>
+      
+    </li>
+
+    
+    <li style="position: relative;">    
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      <a href="http://www.davidrumsey.com/luna/servlet/view/all" class="" onClick="this.blur()">Explore</a>
+       <ul id="exploreSub">
+       
+        <li>
+          
+                    
+          
+          
+           
+             
+              <a id="MainNavBrowseAllIcon" class="" href="http://www.davidrumsey.com/luna/servlet/view/all?sort=Pub_List_No_InitialSort,Pub_Date,Pub_List_No,Series_No" title="" onClick="this.blur()">Browse All</a>
+            
+            
+            
+          
+        </li>
+
+        
+        <li>
+           
+           
+           
+          <a id="MainNavGroupIcon" class="" href="http://www.davidrumsey.com/luna/servlet/groups" title="" onClick="this.blur()">Media Groups</a>
+        </li>
+  
+        
+        <li>
+           
+           
+           
+          <a id="MainNavPresentationIcon" class="" href="http://www.davidrumsey.com/luna/servlet/presentations" title="" onClick="this.blur()">Presentations</a>
+        </li>
+  
+        
+        
+   
+        
+        <li>
+           
+           
+           
+          <a id="MainNavExternalMediaIcon" class="" href="http://www.davidrumsey.com/luna/servlet/user/onlineMediaSearch" title="" onClick="this.blur()">External Media Search</a>
+        </li>
+   
+        
+        <li>
+           
+           
+           
+          <a id="MainNavBrowseByCategoryIcon" class="" href="http://www.davidrumsey.com/luna/servlet/browseByCategory" title="" onClick="this.blur()">Browse Categories</a>
+        </li>
+
+          
+        
+          
+        
+        <li>
+           
+           
+           
+          <a id="MainNavWorkSpaceIcon" class="" href="javascript: var OpenWorkspace;" title="" onClick="this.blur(); focusWorkspaceWindow();">Workspace</a>
+        </li>
+          
+        
+          
+  
+      </ul>
+    </li>
+
+    
+    <li style="position: relative;">
+       
+       
+       
+       
+      <a href="http://www.davidrumsey.com/luna/servlet/user/groups/create" class="" onClick="this.blur()">Create</a>
+      <ul id="createSub">
+        <!--
+              <li>
+                
+                
+                
+                <a class="" href="/luna/servlet/groups;jsessionid=9394D5183B1D623500E91EDB89556423" title="">Media Groups</a>
+              </li>
+              -->
+        <li>
+           
+           
+           
+          <a id="MainNavGroupIcon" href="http://www.davidrumsey.com/luna/servlet/user/groups/create" title="" onClick="this.blur()">Media Groups</a>
+        </li>
+      
+      
+      
+        <li>
+           
+           
+           
+          <a id="MainNavPresentationIcon" href="http://www.davidrumsey.com/luna/servlet/user/presentations/create" title="" onClick="this.blur()">Presentations</a>
+        </li>
+
+        
+      
+       
+      
+      </ul>
+    </li>
+
+    
+    
+    <li style="position: relative;">
+      <a id="ShareThisMenuItem" href="javascript: var ShareThis;" title="Share this page/view with others">Share This</a>
+    </li>
+    
+  
+    
+    
+    
+    
+    
+    
+    <li>
+      <a id="HelpControl" style="cursor: pointer" title="">Help</a>
+    </li>
+
+  </ul>
+</div>
+
+
+</td>
+              
+            </tr>
+          </table>
+        </div>
+      
+
+      <div id="Content">
+        <table border="0" cellpadding="0" cellspacing="0" width="100%" height="100%">
+          <tr>
+            <td valign="top">
+              
+                <h1 class="pageTitle">Embed This </h1>
+              
+              
+
+
+
+
+
+
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!-- Color Picker source files and dependencies for CSS and JavaScript --> 
+
+
+
+
+
+
+
+
+<script type="text/javascript">
+  // set this var ASAP, used by widget preview
+  var referenceToWidget = "not attached yet";
+  
+  // this is used to add an automatic border if the color is changed and border is zero
+  var currentBorderColor = "white";
+</script>
+
+<script>
+
+  var widgetType;
+
+  var outputTypeDropdown;
+  var displayControlsCheckbox;
+  var widgetWidthField;
+  var widgetHeightField;
+  var widgetBorderWidthField;
+  var widgetBorderColorField;
+  var codeStandardCheckbox;
+  
+  var previewPanelControlsTable;
+  var displayControlsContainer;
+  var displayPanelsContainer;
+  
+  var widgetPreviewPanel;
+  var widgetPreviewContainer;
+  
+  var codeOutputLabel;
+  var codeOutputWindow;
+  
+  var widgetUrls;
+  
+  var defaultPreviewContainerWidth       = '700';  
+  var defaultPreviewContainerHeight      = '350';  
+  var defaultPreviewContainerBorderWidth = '0';  
+  var defaultPreviewContainerBorderColor = 'white';  
+  
+  var nonJavascriptPreviewContainerBorderWidth = "1";  
+  var nonJavascriptPreviewContainerBorderColor = "white";  
+
+  var previewHoverNotice;
+  
+  // called when this page loads
+  // sets global vars and starts widget preview loading
+  // this ensures widget panel loads last 
+  function onPageLoad()
+  {
+    widgetType = 'detail';
+    
+    outputTypeDropdown      = $("outputType");
+    displayControlsCheckbox = $("displayControls");
+    displayPanelsCheckbox   = $("displayPanels");
+    widgetWidthField        = $("widgetWidth");
+    widgetHeightField       = $("widgetHeight");
+    widgetBorderWidthField  = $("widgetBorderWidth");
+    widgetBorderColorField  = $("widgetBorderColor");
+    codeStandardCheckbox    = $("codeStandard");
+    
+    widgetPreviewContainer  = $("WidgetPreviewContainer");
+    previewHoverNotice      = $("previewHoverNotice");
+    
+    codeOutputLabel         = $("codeOutputLabel");
+    codeOutputWindow        = $("codeOutput");
+  
+    widgetUrls = new Array();
+    widgetUrls["javascript"] = 'http://www.davidrumsey.com/luna/servlet/detail/RUMSEY~8~1~233531~5509640:Map-of-Upper-Egypt,-drawn-from-vari?trs=387&qvq=q:egypt;sort:Pub_List_No_InitialSort,Pub_Date,Pub_List_No,Series_No;lc:RUMSEY~8~1&embedded=true&mi=3&widgetType=detail&cic=RUMSEY~8~1&widgetFormat=javascript';
+    
+    widgetUrls["forum"]      = 'http://www.davidrumsey.com/luna/servlet/detail/RUMSEY~8~1~233531~5509640:Map-of-Upper-Egypt,-drawn-from-vari?trs=387&qvq=q:egypt;sort:Pub_List_No_InitialSort,Pub_Date,Pub_List_No,Series_No;lc:RUMSEY~8~1&embedded=true&mi=3&widgetType=detail&cic=RUMSEY~8~1&widgetFormat=forum'; 
+    widgetUrls["wiki"]       = 'http://www.davidrumsey.com/luna/servlet/detail/RUMSEY~8~1~233531~5509640:Map-of-Upper-Egypt,-drawn-from-vari?trs=387&qvq=q:egypt;sort:Pub_List_No_InitialSort,Pub_Date,Pub_List_No,Series_No;lc:RUMSEY~8~1&embedded=true&mi=3&widgetType=detail&cic=RUMSEY~8~1&widgetFormat=wiki'; 
+     
+    previewPanelControlsTable = $("previewPanelControls");
+    displayControlsContainer  = $("displayControlsContainer");
+    displayPanelsContainer  = $("displayPanelsContainer");
+    
+    if (outputTypeDropdown.value == -1) 
+      outputTypeDropdown.selectedIndex = 1;
+    
+    generateWidget();
+  }
+  
+  //create a namespace object in this namespace:
+  YAHOO.namespace("insight.colorpicker")
+  
+  //create a new object for this module:
+  YAHOO.insight.colorpicker.inDialog = function() {
+  
+    //Some shortcuts
+    var Event=YAHOO.util.Event,
+        Dom=YAHOO.util.Dom,
+        lang=YAHOO.lang;
+    
+    return {
+      //In our initialization function, we'll create the dialog;
+      //in its render event, we'll create our Color Picker instance.
+      init: function() {
+    
+        // Instantiate the Dialog
+        this.dialog = new YAHOO.widget.Dialog("yui-picker-panel", { 
+          width : "380px",
+          fixedcenter : true,
+          visible : false, 
+          constraintoviewport : true,
+          buttons : [ { text:"&nbsp;&nbsp;&nbsp;Ok&nbsp;&nbsp;&nbsp;", handler:this.handleSubmit, isDefault:true },
+                      { text:"Cancel", handler:this.handleCancel } ]
+        });
+   
+        // Once the Dialog renders, we want to create our Color Picker
+        // instance.
+        this.dialog.renderEvent.subscribe(function() {
+          if (!this.picker) { //make sure that we haven't already created our Color Picker
+          
+            this.picker = new YAHOO.widget.ColorPicker("yui-picker", {
+              container: this.dialog,
+              images: {
+                PICKER_THUMB: 'http://www.davidrumsey.com/luna/js/build/2.3.0-files/colorpicker/assets/picker_thumb.png',
+                HUE_THUMB:    'http://www.davidrumsey.com/luna/js/build/2.3.0-files/colorpicker/assets/hue_thumb.png'
+              },
+              
+              // Here are some other configurations we could use for our Picker:
+              showcontrols: false,  // default is true, false hides the entire set of controls
+              showrgbcontrols: false, // default is true
+              showhexcontrols: true, // default is false
+              showhexsummary: false
+              // showhsvcontrols: true  // default is false
+            });
+    
+          }
+        }); 
+
+        // We're all set up with our Dialog's configurations; now, render the Dialog 
+        this.dialog.render(); 
+  
+        // attach show event
+        Event.on("show", "click", this.dialog.show, this.dialog, true);
+      },
+  
+      handleSubmit: function() {
+        // look up object on call or IE will crash
+        widgetBorderColorField.value = '#' + document.getElementById("yui-picker-hex").value;
+        adjustWidget();
+        this.cancel();
+      },
+ 
+      handleCancel: function() {
+        this.cancel();
+      }
+    }
+  }();
+
+YAHOO.util.Event.onAvailable("ScriptsLoaded",initColorPicker_);
+
+function initColorPicker_() {
+YAHOO.insight.colorpicker.inDialog.init(YAHOO.insight.colorpicker.inDialog, true);
+}
+  // called by widget in preview panel, once it's loaded
+  function onWidgetLoaded( widgetDom )
+  {
+    referenceToWidget = widgetDom;
+    populateOutputDropdown();
+    hideControls();
+    adjustWidgetProperties();
+    fillCodeWindow();
+  }
+  
+  // called when a widget property is changed but the widget doesn't need to be reloaded
+  function adjustWidget()
+  {
+    adjustWidgetProperties();
+    fillCodeWindow();
+  }
+
+  // hide widget controls for various code output types
+  // only javascript can have width, height, border and color
+  // only html and javascript can have show controls option
+  function hideControls()
+  {
+    if (widgetType == 'thumbnail' && ( isJavascript() || outputTypeDropdown.value == 'html' ) )
+      displayControlsContainer.style.visibility = 'visible';
+    else
+      displayControlsContainer.style.visibility = 'hidden';
+
+    if ( isJavascript() )
+      previewPanelControlsTable.style.visibility = 'visible';
+    else 
+      previewPanelControlsTable.style.visibility = 'hidden';
+      
+    if( widgetType == 'workspace' )
+      displayPanelsContainer.style.visibility = 'visible';
+    else
+      displayPanelsContainer.style.visibility = 'hidden';
+  }
+  
+  // adjust properties of object tag (widget) seen in preview panel
+  function adjustWidgetProperties()
+  {
+    if( widgetPreviewPanel != null )
+    {
+      // if user changes border color, and border is still zero, set border width to 1 so they can see it
+      if ( getPreviewPanelBorderWidth() == "0px" && getPreviewPanelBorderColor() != currentBorderColor )
+      {
+        widgetBorderWidthField.value = 1; 
+      }
+      currentBorderColor = getPreviewPanelBorderColor();
+      
+      widgetPreviewPanel.width  = getPreviewPanelWidth( true );
+      widgetPreviewPanel.height = getPreviewPanelHeight( true );
+      widgetPreviewPanel.border = getPreviewPanelBorderWidth();
+      widgetPreviewPanel.style.borderWidth = getPreviewPanelBorderWidth();
+      widgetPreviewPanel.style.borderColor =  getPreviewPanelBorderColor();
+    }
+    showPreviewNotice();
+  }
+  
+  function outputTypeChange()
+  {
+    if (outputTypeDropdown.value != -1)
+      generateWidget();   
+  }
+  
+  
+  // generate a new widget and reload its properties.
+  function generateWidget()
+  {
+    codeOutputWindow.value = "";
+    hideControls();
+    widgetPreviewContainer.innerHTML = getIframeCode( true );
+    widgetPreviewPanel = $("widgetPreview");
+  }
+  
+  // iframe code can be generated to show preview or for external embedding (there are slight differences)
+  function getIframeCode( forPreview )
+  {
+    var isWidgetCreator = (forPreview) ? '&fromWidgetCreator=1' : "";
+    
+    var widgetUrl;
+    if ( referenceToWidget == "not attached yet") // if page is loading the first time
+    {
+      widgetUrl = widgetUrls[outputTypeDropdown.value] + isWidgetCreator;
+    }
+    else if ( forPreview ) // if code is being generated to load the widget preview
+    {
+      widgetUrl = referenceToWidget.widgetPreviewUrl;
+    }
+    else // if code is being generated to embed externally
+    {
+      widgetUrl = referenceToWidget.widgetUrl;
+    }
+    
+    // no scrolling for slideshow as it isn't necessary and makes IE crash
+    var scrolling = (widgetType == 'slideshow' || widgetType == 'presentation' ) ? ' scrolling="no" ' : " ";
+    
+    widgetUrl = jshAppendParameter( widgetUrl, "widgetFormat", outputTypeDropdown.value );    
+
+    widgetUrl = jshAppendParameter( widgetUrl, "widgetType", widgetType );    
+
+    var displayControls = (displayControlsCheckbox.checked) ? "1" : "0"; 
+    var displayPanels = (displayPanelsCheckbox.checked) ? "0" : "1"; 
+    widgetUrl = jshAppendParameter( widgetUrl, "controls", displayControls ); 
+    widgetUrl = jshAppendParameter( widgetUrl, "nsip", displayPanels );    
+
+    widgetUrl = widgetUrl.replace(/"/g, "&quot;");
+    
+    return '<iframe id="widgetPreview" frameBorder="0"'
+                 + scrolling
+                 + ' width="' + getPreviewPanelWidth( forPreview ) + '" '
+                 + ' height="' + getPreviewPanelHeight( forPreview ) + '" '
+                 + ' border="' + getPreviewPanelBorderWidth() + '"'
+                 + ' style="border:' + getPreviewPanelBorderWidth()
+                 +         ' solid ' + getPreviewPanelBorderColor() + '" '
+                 + ' src="' + widgetUrl + '" '
+                 + '></iframe>';
+  }
+  
+  // object code is only generated for external embedding
+  function getObjectTagCode()
+  {
+    var displayControls = (displayControlsCheckbox.checked) ? "1" : "0"; 
+    var displayPanels = (displayPanelsCheckbox.checked) ? "0" : "1"; 
+    var widgetUrl = jshAppendParameter( referenceToWidget.widgetUrl, "controls", displayControls );   
+    var widgetUrl = jshAppendParameter( referenceToWidget.widgetUrl, "nsip", displayPanels );    
+
+    return '<object id="widgetPreview" type="text/html" standby="Loading preview..."'
+           + ' width="' + getPreviewPanelWidth() + '" '
+           + ' height="' + getPreviewPanelHeight() + '" '
+           + ' style="border:' + getPreviewPanelBorderWidth()
+           +         ' solid ' + getPreviewPanelBorderColor() + '" '
+           + ' data="' + widgetUrl + '" '
+           + '></object>';
+  }
+  
+  // fill in code textbox and its label
+  // can be called from this page or from child (previewPanel)
+  function fillCodeWindow()
+  {
+    var codeType = outputTypeDropdown.value;
+    
+    if ( codeType == "javascript" ) 
+    {
+      if ( codeStandardCheckbox.checked ) 
+      {
+        codeOutputLabel.innerHTML = 'Object Tag Code (accepted by more sites, but will not work with Internet Explorer default settings):';
+        codeOutputWindow.value = getObjectTagCode();
+      }
+      else 
+      {
+        codeOutputLabel.innerHTML = 'I-Frame Code (for use with all browsers, but banned by some blog sites and 3rd-party content sites):';
+        codeOutputWindow.value = getIframeCode( false );
+      }
+    }
+    else if ( codeType == "html" ) 
+    {
+      codeOutputLabel.innerHTML = 'HTML Output:';
+ 
+      var htmlCode = '';
+      
+      // sometimes we need to save the innerHtml before extra stuff is rendered in the page
+      if ( referenceToWidget.savedInnerHTML )
+      {
+         htmlCode = '<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">'
+                 + '<html>' + parseOutScripts(referenceToWidget.savedInnerHTML) + '</body></html>';
+      }
+      
+      // otherwise we simply grab the inner html of the widget 
+      else if ( referenceToWidget.documentElement.innerHTML )
+      {
+        htmlCode = '<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">'
+                 + '<html>' + parseOutScripts(referenceToWidget.documentElement.innerHTML) + '</body></html>';
+      }
+      // browser not supported
+      else 
+      {
+         htmlCode = 'Browser not supported!';
+      }
+      
+      // removes extra line breaks
+      codeOutputWindow.value = cleanUp( htmlCode );
+    }
+    else if ( codeType == "forum" ) 
+    {
+      codeOutputLabel.innerHTML = 'Forum Output (vBulletin standard):';
+      codeOutputWindow.value = referenceToWidget.forumOutput;
+    }
+    
+  }
+
+  // parses out the javascript at the end of the preview widget
+  function parseOutScripts(source)
+  {
+    var index = source.indexOf("<!-- parse me out -->");
+    if( index >= 0 )
+    {
+      return source.substring(0, index );
+    }
+    return source;
+  }
+  
+  // sets a the preview panel to the selected dimensions
+  // even if they are larger than the default dimensions
+  // (when user IS mousing over the preview window)
+  function expandWidget()
+  {
+    if ( outputTypeDropdown && isJavascript() && isWidgetOversized && widgetPreviewPanel != null )
+    {
+      adjustWidgetProperties();
+      widgetPreviewPanel.width  = widgetWidthField.value;
+      widgetPreviewPanel.height = widgetHeightField.value;
+      
+      // safari will reload the whole frame if we set position to absolute
+      if (navigator.userAgent.toUpperCase().indexOf('SAFARI') > -1) 
+        widgetPreviewPanel.style.position = 'relative';
+      else
+        widgetPreviewPanel.style.position = 'absolute';
+      
+      widgetPreviewContainer.style.overflow = 'visible';
+    }
+  }
+  
+  // sets a the preview panel to either the selected dimensions or the default dimensions
+  // if the default dimensions are smaller
+  // (when user IS NOT mousing over the preview window)
+  function resetWidget()
+  {
+    if ( isJavascript() && widgetPreviewPanel != null )
+    {
+      widgetPreviewPanel.width  = getPreviewPanelWidth( true );
+      widgetPreviewPanel.height = getPreviewPanelHeight( true );
+      widgetPreviewPanel.style.position = "";
+      widgetPreviewContainer.style.overflow = "hidden";
+    }
+  }
+   
+  // get the smaller of the default width or specified width
+  // or default if output type != javascript
+  function getPreviewPanelWidth( clipWidth )
+  {
+    if ( !clipWidth || ( isJavascript() 
+                         && getNumeric( widgetWidthField.value, widgetWidthField ) < defaultPreviewContainerWidth ) ) 
+    {
+      return getNumeric( widgetWidthField.value, widgetWidthField ) + 'px'
+    }
+    else 
+    {
+      return defaultPreviewContainerWidth + 'px';
+    }
+  }
+  
+  // get the smaller of the default height or specified height
+  // or default if output type != javascript
+  function getPreviewPanelHeight( clipWidth )
+  {
+   if ( !clipWidth || ( isJavascript() 
+                        && getNumeric( widgetHeightField.value, widgetHeightField ) < defaultPreviewContainerHeight ) ) 
+   {
+     return getNumeric( widgetHeightField.value, widgetHeightField ) + 'px';
+   }
+    else {
+      return defaultPreviewContainerHeight + 'px';
+    }
+  }
+  
+  var isWidgetOversized = false;
+  // changes label above preview panel
+  function showPreviewNotice()
+  {
+    isWidgetOversized = false;
+    
+    if ( isJavascript() && (   ( getNumeric( widgetHeightField.value, widgetHeightField ) > defaultPreviewContainerHeight ) 
+                             || ( getNumeric( widgetWidthField.value, widgetWidthField ) > defaultPreviewContainerWidth ) ) )
+    {
+      isWidgetOversized = true;
+      previewHoverNotice.innerHTML = '&nbsp;(hover over preview to expand to actual size)';
+    }
+    
+    // show workspace notice at first
+    else if (widgetType == 'workspace')
+      previewHoverNotice.innerHTML = '&nbsp;(note: changes to the workspace layout or content will not be reflected in the external widget)';
+    
+    else if (outputTypeDropdown.value == 'wiki')
+      previewHoverNotice.innerHTML = '&nbsp;(actual layout and appearance may vary depending on host platform)';
+    
+    else if (outputTypeDropdown.value == 'forum')
+      previewHoverNotice.innerHTML = '&nbsp;(actual layout and appearance may vary depending on host platform)';
+    
+    else 
+      previewHoverNotice.innerHTML = '';
+  }
+  
+  // get specified border width or default if output type != javascript
+  function getPreviewPanelBorderWidth()
+  {
+   return ( !isJavascript() ) ? nonJavascriptPreviewContainerBorderWidth + 'px' : getNumeric( widgetBorderWidthField.value, widgetBorderWidthField ) + 'px';
+  }
+  
+  // get specified border color or default if output type != javascript
+  function getPreviewPanelBorderColor()
+  {
+   return ( !isJavascript() ) ? nonJavascriptPreviewContainerBorderColor : widgetBorderColorField.value;
+  }
+  
+  // set output type dropdown to allowed formats for each kind of widget
+  // thumbnail, detail view = javascript, html, forum
+  // slideshow = javascript, html
+  // presentation, workspace = javascript (they have ajax calls)
+  function populateOutputDropdown()
+  {
+    // only populate once (or ok to repopulate if javascript is only option)
+    
+    if (outputTypeDropdown.options.length == 2)
+    {
+     /* 
+      * Case 891
+      * Removed the JavaScript option. Notice the opion's index for Forum changed.
+      *
+      *  // presentation and workspace both use ajax, which only works with javascript widgets
+      *  if (widgetType != 'presentation' && widgetType != 'workspace')
+      *    outputTypeDropdown.options[2] = new Option("HTML", "html");
+      *  
+      *  if (widgetType == 'detail' || widgetType == 'thumbnail')
+      *    outputTypeDropdown.options[3] = new Option("Forum", "forum");
+      */
+      
+      if (widgetType == 'detail' || widgetType == 'thumbnail')
+       outputTypeDropdown.options[2] = new Option("Forum", "forum");
+    }
+  }
+  
+  // convenience function
+  function isJavascript()
+  {
+    return ( outputTypeDropdown.value == 'javascript' );
+  }
+  
+  // alerts if value is non-numeric
+  function getNumeric( value, parent )
+  {
+    if ( value*1 == value ) 
+      return value;
+    else
+    {  
+      messageUser( 'Value must be numeric', parent );
+    }
+  }
+
+  // strips all blank lines from code
+  function cleanUp( source )
+  {
+    var newSource = source.replace( /\n\s*\n/g, '\n' );
+    return newSource;
+  }
+  
+  YAHOO.util.Event.addListener(window, "load", onPageLoad);
+
+</script> 
+
+<div id="WidgetCreator" class="yui-skin-sam">
+
+ <div id="GenericFormContainer">
+  
+
+  <div class="introductionText">Embedding <a target=_blank href="http://en.wikipedia.org/wiki/Web_widget">Web Widgets</a> allows you to share all kinds of content from <b>LUNA</b>. You can embed search results, Slide Shows, Presentations, the <b>LUNA</b> Workspace, Media Groups, and detail views into other applications.<br><br>After customizing your <b>LUNA</b> widget, simply copy and paste the code into the desired application.<br></div>
+  
+  
+  <div id="GenericForm">
+
+    
+    
+    
+    
+
+    <form name="theForm" method="post" onsubmit="return false;" action="">
+    <input type="hidden" name="formSubmit" value="true" />
+    
+
+    <table cellpadding="0" cellspacing="0" border="0">
+      <tr>
+        <td align="left"><span>Embed Options: </span></td>
+      </tr>
+      <tr>
+        <td>
+    
+          <table cellpadding="2" cellspacing="2" border="0" style="padding: 5px 0 0 0;">
+            <tr>
+              <td>
+                Embed Type:
+              </td>
+            </tr>
+            <tr>
+               <td align="left"><select name="outputType" id="outputType" onchange="outputTypeChange();">
+                   <option value="-1">Select output type...</option>
+                   <option value="javascript" selected="selected">Javascript</option>
+                 </select></td>
+            </tr>
+            <tr>    
+                 <td align="left"><span id="displayControlsContainer"><input class="checkbox" type="checkbox" onclick="generateWidget();" checked="checked"
+                           name="displayControls" id="displayControls" value="true" />&nbsp;Display Controls</span></td>
+            </tr>
+            <tr>    
+                 <td align="left"><span id="displayPanelsContainer"><input class="checkbox" type="checkbox" onclick="generateWidget();"
+                           name="displayPanels" id="displayPanels" value="true" />&nbsp;Display Panels</span></td>
+            </tr>
+          </table>
+
+        </td>
+        <td>
+        
+          <table cellpadding="2" cellspacing="2" border="0" id="previewPanelControls">
+            <tr>
+              <td align="right"><span>Width: </span></td>
+              <td align="left"><input type="text" name="widgetWidth" id="widgetWidth"  maxlength="4" style="width:50px"
+                         onchange="adjustWidget();" value="700" />px&nbsp;</td>
+              <td align="right"><span>Border Width: </span></td>
+              <td align="left"><input type="text" name="widgetBorderWidth" id="widgetBorderWidth"  maxlength="4" style="width:50px"
+                         onchange="adjustWidget();" value="0" />px&nbsp;</td>
+               <td align="left"><input class="checkbox" type="checkbox" onclick="adjustWidget();"
+                           name="codeStandard" id="codeStandard" value="true" />&nbsp;Use Object Tag
+                           &nbsp;<a href="javascript:alert('I-Frame Code will work with all browsers, but is banned by some blog sites and 3rd-party content sites.\n\nObject Tag Code is accepted by more sites, but will not work with Internet Explorer default settings.\n\nNote: to enable an object tag to load content across domains with Internet Explorer, set \nTools : Internet Options : Security : Custom Level : Miscellaneous : Access data sources across domains : Enable');">?</td>
+            </tr>
+            <tr>
+              <td align="right"><span>Height: </span></td>
+              <td align="left"><input type="text" name="widgetHeight" id="widgetHeight"  maxlength="4" style="width:50px"
+                         onchange="adjustWidget();" value="350" />px&nbsp;</td>
+              <td align="right"><span>Border Color: </span></td>
+              <td align="left"><input type="text" name="widgetBorderColor" id="widgetBorderColor"  maxlength="8" style="width:65px"
+                         onchange="adjustWidget();" value="white" /></td>
+              <td class="yui-skin-sam" align="left">&nbsp;<a id="show" 
+                        href="javascript:var clickToLoadColorPicker;">Color Picker</a></td>
+            </tr>
+            <tr>
+              <td> &nbsp;
+              </td>
+            </tr>
+          </table>
+
+        </td>
+      </tr>
+      <tr>
+        <td align="left" colspan="2" ><span>&nbsp;</span></td>
+      </tr>
+      <tr>
+        <td align="left" colspan="2"><span>Preview<span id="previewHoverNotice"></span>:</span></td>
+      </tr>
+    </table>
+
+    <div id="WidgetPreviewContainer" 
+         onmouseover="expandWidget();" onmouseout="resetWidget();"
+         style="z-index:1000;">
+    </div>
+
+    <table cellpadding="2" cellspacing="2" border="0">
+      <tr>
+        <td>&nbsp;</td>
+      </tr>
+       <tr>
+        <td align="left"><span id="codeOutputLabel">I-Frame Code (for use with all browsers, but banned by some blog sites and 3rd-party content sites): </span></td>
+      </tr>
+      <tr>
+        <td align="left"><textarea readonly="readonly" cols="500" rows="10" onClick='this.select();this.focus();'
+                                               name="codeOutput" id="codeOutput"></textarea></td>
+      </tr>
+      <tr>
+        <td>&nbsp;</td>
+      </tr>
+
+    </table>
+    
+    </form>
+  </div>
+
+  <div id="yui-picker-panel" class="yui-picker-panel"> 
+      <div class="hd1"><span id="ColorPickerIntro">Please choose a color:</span></div> 
+      <div class="bd"> 
+          <form name="yui-picker-form" id="yui-picker-form" method="post" action="assets/post.php"> 
+          <div class="yui-picker" id="yui-picker"></div> 
+          </form> 
+      </div> 
+      <div class="ft"></div> 
+  </div> 
+
+
+
+ </div>
+</div>
+
+
+
+
+
+
+
+              <div id="MessageToUserContainer" style="position: absolute; visibility: hidden; display: none;"></div>
+
+            </td>
+            
+          </tr>
+          
+        </table>
+
+  
+  <div id='customFooter' align='center'>
+    <iframe style="visibility:hidden;" onload="this.style.visibility='visible';" frameborder='0' marginheight='0' marginwidth='0' width='700px' scrolling='no' src="http://www.davidrumsey.com:8486/graphics/Rumsey_footer.html"><p>This browser does not support iframes.</p></iframe>
+  </div>
+  
+  
+  
+  <div id='lunaFooter' align='center'>
+    <iframe style="visibility:hidden;" onload="this.style.visibility='visible';" frameborder='0' marginheight='0' marginwidth='0' width='700px' scrolling='no' src="http://www.davidrumsey.com/luna/footer/luna_footer.html"><p>This browser does not support iframes.</p></iframe>
+  </div>
+  
+  
+      </div>
+    </div>
+  </body>
+</html>
+
+
+
+
+
+
+
+
+
