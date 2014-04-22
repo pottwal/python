@@ -1,0 +1,1191 @@
+
+
+Sabratha: Capitolium
+Koordinaten lat,long: 32.8067450,12.4805240
+Type: Monument
+IRT001
+IRT003
+IRT004
+IRT009
+IRT010
+IRT011
+IRT014
+IRT017
+IRT019
+IRT020
+IRT024
+IRT025
+IRT026
+IRT028
+IRT030
+IRT032
+IRT034
+IRT038
+IRT039
+IRT042
+IRT044
+IRT048
+IRT050
+IRT051
+IRT052
+IRT054
+IRT062
+IRT064
+IRT065
+IRT066
+IRT067
+IRT071
+IRT073
+IRT075
+IRT076
+IRT077
+IRT082
+IRT084
+IRT087
+IRT088
+IRT092
+IRT095
+IRT095
+IRT096
+IRT097
+IRT099
+IRT113
+IRT115
+IRT116
+IRT117
+IRT128
+IRT131
+IRT133
+IRT137
+IRT139
+IRT140
+IRT141
+IRT143
+IRT149
+IRT156
+IRT160
+IRT167
+IRT168
+IRT172
+IRT175
+IRT190
+
+
+Sabratha: Justinian church
+Koordinaten lat,long: 32.8074170,12.4805720
+Type: Monument
+IRT006
+IRT033
+IRT192
+
+
+Sabratha: Marsa Dila
+Koordinaten lat,long: 32.7927840,12.7473770
+Type: Harbour
+IRT848
+
+
+Sabratha: Reg. I
+Koordinaten lat,long: 32.8058140,12.4793190
+Type: Area
+IRT127
+
+
+Sabratha: Reg. II
+Koordinaten lat,long: 32.8067370,12.4833800
+Type: Area
+IRT005
+IRT074
+IRT154
+IRT158
+IRT180
+
+
+Sabratha: Reg. III
+Koordinaten lat,long: 32.8065430,12.4872420
+Type: Area
+IRT110
+
+
+Sabratha: Reg. IV
+Koordinaten lat,long: 32.8036390,12.4874170
+Type: Area
+IRT059
+
+
+Sabratha: Reg. V
+Koordinaten lat,long: 32.8055610,12.4831220
+Type: Area
+No Inscriptions
+
+
+Sabratha: Temple of Hercules
+Koordinaten lat,long: 32.8062200,12.4840290
+Type: Temple
+IRT029
+
+
+Sabratha: Temple of Isis
+Koordinaten lat,long: 32.8076860,12.4878740
+Type: Temple
+IRT008
+IRT015
+IRT016
+
+
+Sabratha: Late cemetery NE of the Theatre
+Koordinaten lat,long: 32.8062630,12.4856060
+Type: Cemetery
+IRT209
+IRT209
+
+
+Sabratha: Street leading from the Byzantine Gate to the Forum
+Koordinaten lat,long: 32.8060480,12.4820230
+Type: Street
+IRT046
+
+
+Sabratha: Theatre
+Koordinaten lat,long: 32.8053470,12.4851020
+Type: Monument
+IRT007
+IRT100
+IRT150
+IRT157
+IRT177
+
+
+Sabratha: Theatre Baths
+Koordinaten lat,long: 32.8062890,12.4843460
+Type: Monument
+IRT171
+
+
+Sabratha: Via del Teatro
+Koordinaten lat,long: 32.8051490,12.4833160
+Type: Road
+IRT130
+IRT144
+
+
+Sabratha:Sabratha Museum
+Koordinaten lat,long: 32.8037690,12.4830700
+Type: Museum
+IRT002
+IRT004
+IRT005
+IRT007
+IRT008
+IRT012
+IRT031
+IRT040
+IRT041
+IRT043
+IRT045
+IRT046
+IRT047
+IRT049
+IRT053
+IRT055
+IRT063
+IRT068
+IRT069
+IRT072
+IRT074
+IRT078
+IRT079
+IRT080
+IRT081
+IRT083
+IRT085
+IRT086
+IRT089
+IRT090
+IRT091
+IRT093
+IRT094
+IRT095
+IRT100
+IRT101
+IRT105
+IRT106
+IRT107
+IRT108
+IRT109
+IRT110
+IRT112
+IRT114
+IRT129
+IRT130
+IRT132
+IRT134
+IRT135
+IRT136
+IRT138
+IRT142
+IRT144
+IRT145
+IRT146
+IRT148
+IRT150
+IRT151
+IRT152
+IRT153
+IRT154
+IRT155
+IRT158
+IRT159
+IRT165
+IRT166
+IRT176
+IRT179
+IRT180
+IRT181
+IRT182
+IRT183
+IRT184
+IRT185
+IRT186
+IRT188
+IRT189
+IRT192
+IRT194
+IRT195
+IRT201
+IRT216
+IRT217
+IRT224
+IRT225
+IRT226
+IRT227
+IRT228
+IRT229
+IRT240
+IRT851
+
+
+Upper Sofeggin Road: Gasr Uames
+Koordinaten lat,long: 31.6498960,12.6666010
+Type: Gasr
+Variant names: Qa?r W?mis
+IRT964
+
+
+Upper Sofeggin Road: el-Aghira
+Koordinaten lat,long: 31.4665900,12.8166490
+Type: Wadi
+Variant names: W?d? al `Aq?rah
+IRT969
+
+
+Upper Sofeggin Road: Bed of the Wadi Sofeggin
+Koordinaten lat,long: 31.8628170,15.0354980
+Type: Road
+Variant names: Wadi Sawfejjin, Wadi Suf Ajjin, Wadi Suf al Jin, Wadi Sawf al Jin
+IRT968
+
+
+Coastal Belt: Sidi Ali el-Fergiani
+Koordinaten lat,long: 32.5402330,14.3986870
+Type: Mosque
+Variant names: Sidi al Furjani,Sidi el-Fergiani,Sidi el-Fergiàni,S?d? al Furj?n?
+IRT850
+
+
+Coastal Belt: Wadi Caam
+Koordinaten lat,long: 32.5288890,14.4475000
+Type: Wadi
+Variant names: River Cinyps,Wadi Ka'am
+IRT851
+
+
+Coastal Belt: Tomb at Zdu near Zliten
+Koordinaten lat,long: 32.4955020,14.5668810
+Type: Area
+IRT852
+
+
+Western Djebel: Asabaa
+Koordinaten lat,long: 32.0549950,12.8527930
+Type: Area
+IRT862
+IRT987
+
+
+Western Djebel: Jefren
+Koordinaten lat,long: 32.0606960,12.5248060
+Type: Polis
+Variant names:  Yefren
+IRT857
+IRT858
+
+
+Oea-Lepcis Magna: Gasr Garabulli
+Koordinaten lat,long: 32.7500000,13.7166700
+Type: Monument
+Variant names: Castelverde, Gasr el-Garabùlli, Gasr el Gharabulli, Gasr Garabúlli, Qarab?ll?, Qarah B?ll?, Qa?r al Qarahbull?		
+IRT928
+
+
+Oea-Lepcis Magna: Homs
+Koordinaten lat,long: 32.6389700,14.2808290
+Type: Road
+IRT924
+
+
+Oea-Lepcis Magna: Wadi et-Tualeb
+Koordinaten lat,long: 32.6659660,14.2456200
+Type: Road
+IRT925
+
+
+Oea-Lepcis Magna: Zavia of Sidi Mohammed ben-Brahim
+Koordinaten lat,long: 32.7272150,14.0066900
+Type: Area
+IRT929
+
+
+Lepcis Magna: Large Cisterns
+Koordinaten lat,long: 32.6294130,14.2911360
+Type: Monument
+IRT754
+
+
+Lepcis Magna: Along the presumed line of a road from the Circus to the Port
+Koordinaten lat,long: 32.6346210,14.3048260
+Type: Road
+IRT317
+
+
+Lepcis Magna: Arch of Trajan
+Koordinaten lat,long: 32.6374950,14.2916520
+Type: Monument
+IRT353
+IRT523
+IRT537
+
+
+Lepcis Magna: Basilica Severiana
+Koordinaten lat,long: 32.6375250,14.2943680
+Type: Monument
+IRT427
+IRT428
+IRT519
+IRT565
+IRT651
+IRT800
+IRT802
+IRT807
+
+
+Lepcis Magna: Basilica Vetus
+Koordinaten lat,long: 32.6389020,14.2953830
+Type: Monument
+IRT518
+
+
+Lepcis Magna: Byzantine Gate
+Koordinaten lat,long: 32.6385690,14.2942370
+Type: Monument
+IRT342
+IRT350
+IRT351
+IRT593
+
+
+Lepcis Magna: Byzantine sea-wall
+Koordinaten lat,long: 32.6411510,14.2890000
+Type: Monument
+IRT489
+
+
+Lepcis Magna: Chalcidicum
+Koordinaten lat,long: 32.6374180,14.2913490
+Type: Monument
+IRT316
+IRT324
+IRT325
+IRT329
+IRT336
+IRT409
+IRT551
+IRT589
+IRT604
+IRT758
+IRT759
+
+
+Lepcis Magna: Colonnaded Street
+Koordinaten lat,long: 32.6367790,14.2942620
+Type: Monument
+IRT530
+IRT607
+IRT706
+IRT803
+IRT804
+IRT829
+
+
+Lepcis Magna: Curia
+Koordinaten lat,long: 32.6390380,14.2959150
+Type: Monument
+IRT517
+IRT587
+
+
+Lepcis Magna: Fort of Sidi Barcu
+Koordinaten lat,long: 32.6312450,14.3086150
+Type: Area
+IRT572
+
+
+Lepcis Magna: Forum Severianum
+Koordinaten lat,long: 32.6370770,14.2936350
+Type: Monument
+IRT283
+IRT284
+IRT298
+IRT309
+IRT366
+IRT367
+IRT423
+IRT426
+IRT441
+IRT442
+IRT450
+IRT454
+IRT455
+IRT456
+IRT457
+IRT462
+IRT464
+IRT465
+IRT466
+IRT469
+IRT471
+IRT472
+IRT473
+IRT474
+IRT475
+IRT477
+IRT478
+IRT479
+IRT480
+IRT492
+IRT500
+IRT514
+IRT515
+IRT522
+IRT526
+IRT529
+IRT532
+IRT539
+IRT558
+IRT559
+IRT561
+IRT562
+IRT564
+IRT566
+IRT567
+IRT570
+IRT571
+IRT574
+IRT575
+IRT576
+IRT577
+IRT578
+IRT582
+IRT588
+IRT591
+IRT602
+IRT610
+IRT611
+IRT640
+IRT644
+IRT652
+IRT663
+IRT666
+IRT687
+IRT691
+IRT694
+IRT696
+IRT699
+IRT710
+IRT712
+IRT723
+IRT728
+IRT748
+IRT749
+IRT754
+IRT799
+IRT801
+IRT805
+IRT806
+IRT812
+IRT813
+IRT815
+IRT817
+IRT818
+IRT826
+
+
+Lepcis Magna: Forum Vetus
+Koordinaten lat,long: 32.6392020,14.2950470
+Type: Monument
+IRT271
+IRT274
+IRT275
+IRT279
+IRT281
+IRT289
+IRT290
+IRT291
+IRT295
+IRT306
+IRT326
+IRT327
+IRT328
+IRT333
+IRT334
+IRT335
+IRT337
+IRT338
+IRT339
+IRT340
+IRT344
+IRT345
+IRT348
+IRT354
+IRT355
+IRT356
+IRT362
+IRT365
+IRT368
+IRT369
+IRT370
+IRT371
+IRT386
+IRT388
+IRT397
+IRT401
+IRT402
+IRT408
+IRT410
+IRT412
+IRT418
+IRT419
+IRT425
+IRT430
+IRT431
+IRT433
+IRT435
+IRT437
+IRT438
+IRT439
+IRT440
+IRT443
+IRT444
+IRT446
+IRT452
+IRT484
+IRT485
+IRT487
+IRT488
+IRT494
+IRT499
+IRT502
+IRT506
+IRT507
+IRT520
+IRT525
+IRT527
+IRT528
+IRT540
+IRT546
+IRT548
+IRT553
+IRT560
+IRT563
+IRT569
+IRT585
+IRT586
+IRT596
+IRT598
+IRT605
+IRT609
+IRT612
+IRT615
+IRT618
+IRT620
+IRT622
+IRT623
+IRT632
+IRT634
+IRT637
+IRT641
+IRT645
+IRT646
+IRT658
+IRT660
+IRT661
+IRT665
+IRT667
+IRT698
+IRT715
+IRT730
+IRT731
+IRT736
+IRT754
+IRT756
+IRT762
+IRT770
+IRT781
+IRT782
+IRT787
+IRT788
+IRT791
+IRT794
+IRT798
+IRT816
+IRT833
+IRT834
+IRT834
+IRT835
+IRT835
+IRT837
+IRT839
+IRT839
+IRT840
+IRT840
+IRT841
+IRT843
+IRT844
+IRT844
+IRT845
+IRT845
+
+
+Lepcis Magna: Hadrianic Baths
+Koordinaten lat,long: 32.6350040,14.2915790
+Type: Monument
+IRT286
+IRT288
+IRT297
+IRT315
+IRT361
+IRT374
+IRT396
+IRT511
+IRT545
+IRT552
+IRT555
+IRT580
+IRT597
+IRT599
+IRT628
+IRT629
+IRT649
+IRT717
+IRT718
+IRT724
+IRT725
+IRT775
+IRT786
+IRT794
+IRT796
+IRT809
+IRT832
+
+
+Lepcis Magna: Homs
+Koordinaten lat,long: 32.6500000,14.2666700
+Type: Polis
+Variant names: Al Khums
+IRT483
+IRT711
+IRT738
+IRT741
+
+
+Lepcis Magna: Main Street
+Koordinaten lat,long: 32.6365150,14.2883040
+Type: Monument
+IRT308
+IRT330
+IRT330
+IRT381
+IRT531
+IRT542
+IRT695
+IRT713
+IRT739
+IRT766
+IRT767
+IRT808
+
+
+Lepcis Magna: Market
+Koordinaten lat,long: 32.6382420,14.2920740
+Type: Monument
+IRT294
+IRT305
+IRT311
+IRT319
+IRT332
+IRT394
+IRT468
+IRT490
+IRT491
+IRT498
+IRT513
+IRT568
+IRT579
+IRT590
+IRT600
+IRT603
+IRT608
+IRT630
+
+
+Lepcis Magna: Nymphaeum
+Koordinaten lat,long: 32.6356060,14.2929000
+Type: Monument
+
+
+Lepcis Magna: Small hill on the right bank of Wadi Lebdah, occupied as a temporary defence post in 1912
+Koordinaten lat,long: 32.6345780,14.3044070
+Type: Area
+IRT714
+
+
+Lepcis Magna: On the sea- shore West of the Temple of Neptune
+Koordinaten lat,long: 32.6384730,14.3005980
+Type: Area
+IRT302
+
+
+Lepcis Magna: Orchestra
+Koordinaten lat,long: 32.6383490,14.2906120
+Type: Monument
+No Inscriptions
+
+
+Lepcis Magna: Port
+Koordinaten lat,long: 32.6392520,14.3002690
+Type: Monument
+IRT538
+IRT642
+IRT750
+
+
+Lepcis Magna: Ras el-Hammam
+Koordinaten lat,long: 32.6000000,14.3000000
+Type: Area
+Variant names: Ra's al ?amm?m
+IRT481
+IRT780
+
+
+Lepcis Magna: Ras el-Mergheb
+Koordinaten lat,long: 32.6352610,14.2295510
+Type: Area
+IRT314
+IRT738
+
+
+Lepcis Magna: Sahel di Homs
+Koordinaten lat,long: 32.6497760,14.2737310
+Type: Area
+No Inscriptions
+
+
+Lepcis Magna: Severan Arch
+Koordinaten lat,long: 32.6355830,14.2892710
+Type: Monument
+IRT739
+IRT763
+IRT765
+
+
+Lepcis Magna: Severan Basilica
+Koordinaten lat,long: 32.6375250,14.2943680
+Type: Monument
+IRT400
+IRT404
+IRT429
+
+
+Lepcis Magna: Severan Forum
+Koordinaten lat,long: 32.6370990,14.2936800
+Type: Monument
+IRT544
+IRT804
+
+
+Lepcis Magna: Severan Harbour
+Koordinaten lat,long: 32.6379790,14.2998540
+Type: Area
+IRT292
+IRT307
+IRT601
+IRT773
+IRT793
+
+
+Lepcis Magna: South of the Theatre
+Koordinaten lat,long: 32.6378770,14.2902260
+Type: Area
+IRT432
+
+
+Lepcis Magna: Temple of Jupiter Dolichenus
+Koordinaten lat,long: 32.6368540,14.2975210
+Type: Temple
+No Inscriptions
+
+
+Lepcis Magna: Temple of Magna Mater
+Koordinaten lat,long: 32.6394100,14.2947200
+Type: Temple
+IRT300
+
+
+Lepcis Magna: West of the city
+Koordinaten lat,long: 32.6399040,14.2832750
+Type: Area
+IRT764
+
+
+Lepcis Magna: Cistern
+Koordinaten lat,long: 32.6375740,14.2908790
+Type: Monument
+IRT357
+
+
+Lepcis Magna: City centre
+Koordinaten lat,long: 32.6371730,14.2911900
+Type: Polis
+IRT303
+IRT648
+
+
+Lepcis Magna: Mausolea East of the city
+Koordinaten lat,long: 32.6336150,14.3044750
+Type: Area
+IRT584
+IRT672
+IRT673
+IRT679
+IRT680
+IRT681
+IRT752
+
+
+Lepcis Magna: Shore
+Koordinaten lat,long: 32.6401130,14.2946430
+Type: Area
+IRT682
+IRT976
+
+
+Lepcis Magna: Street leading from the Arch of Trajan to the Theatre
+Koordinaten lat,long: 32.6378210,14.2913560
+Type: Monument
+IRT783
+
+
+Lepcis Magna: Zone of Mausolea East of the city
+Koordinaten lat,long: 32.6337810,14.3060160
+Type: Monument
+No Inscriptions
+
+
+Lepcis Magna: Homs Museum
+Koordinaten lat,long: 32.6339260,14.2873790
+Type: Museum
+Variant names: Leptis magna Old Museum
+No Inscriptions
+
+
+Milestones: Temple of Neptune
+Koordinaten lat,long: 32.6384730,14.3005900
+Type: Temple
+IRT732
+
+
+Central Road to the Fezzan: Oea-Mizda area
+Koordinaten lat,long: 31.5006010,12.9906910
+Type: Road
+IRT940
+IRT942
+IRT943
+IRT944
+IRT945
+IRT946
+IRT947
+IRT948
+IRT949
+IRT950
+IRT951
+IRT952
+IRT953
+IRT954
+IRT955
+IRT956
+IRT957
+IRT958
+IRT959
+IRT960
+IRT961
+IRT962
+
+
+Oea-Mizda Area: Chormet el-Hantescia Pass
+Koordinaten lat,long: 31.8666670,12.9833330
+Type: Pass
+Variant names: Chormet el- Hantescia,Chormet el- Hantscia,Chòrmet el- Hantescìa,Chórmet el- Hantscía,Khurmat al Hatasha
+IRT941
+
+
+Oea-Mizda Area: Chormet Gherian
+Koordinaten lat,long: 31.4833300,12.9166700
+Type: Pass
+Variant names: Chormet Garian,Chórmet Garián
+No Inscriptions
+
+
+Middle Lower Sofeggin Basin: Bir ed-Dreder
+Koordinaten lat,long: 31.2831260,13.4668320
+Type: Gasr
+Variant names: Bi'r Duraydir, Bi'r Daridir, Bir Dereder, Bir ed- Dreder
+IRT886
+
+
+Middle Lower Sofeggin Basin: Gasr el-Banat
+Koordinaten lat,long: 31.4617000,14.7046490
+Type: Fortified building
+Variant names: Qasr Banat, Gasr Isawi
+No Inscriptions
+
+
+Middle Lower Sofeggin Basin: Gheriat el-Garbia
+Koordinaten lat,long: 30.4205100,13.4186830
+Type: Fort
+Variant names: Qaryah al-Gharbiyah, Gheria el-Garbia
+IRT895
+IRT896
+IRT897
+
+
+Middle Lower Sofeggin Basin: Wadi Merdum
+Koordinaten lat,long: 31.7305290,14.5166670
+Type: Wadi
+Variant names: Uadi el- Merdum
+IRT893
+
+
+Middle Lower Sofeggin Basin: Wadi Umm el-Agerem
+Koordinaten lat,long: 31.1832990,14.5164420
+Type: Wadi
+Variant names: Uadi Umm el-Agerem, Wadi Umm al `Ajrim
+IRT906
+IRT996
+
+
+Oea-Mizda Area: Caf Tobbi
+Koordinaten lat,long: 31.7000000,12.9500010
+Type: Kaf
+Variant names: Ain Tobbi,Sorgenti di Caf Tobbi,Sorgenti di Caf Tóbbi,`Ayn Zabi,`Ayn Zab?,Àin Tòbbi
+No Inscriptions
+
+
+Ghadames: al Asnam
+Koordinaten lat,long: 30.1500258,9.5000839
+Type: Cemetery
+Variant names: el Asnam, Asnam,A?n?m, Sanam, Sànam
+IRT908
+IRT910
+IRT911
+
+
+Outlying Oasis: Bu-Ngem: Baths
+Koordinaten lat,long: 30.5785270,15.4127900
+Type: Monument
+Variant names: Bu Ngem, Abu Njaym
+IRT918
+IRT919
+
+
+Outlying Oasis: Bu-Ngem: Fort
+Koordinaten lat,long: 30.5781450,15.4128890
+Type: Fort
+Variant names: Bu Ngem
+IRT913
+IRT914
+IRT915
+IRT916
+IRT917
+IRT920
+IRT921
+IRT922
+
+
+Eastern Djebel: Ain Wif
+Koordinaten lat,long: 32.2420940,13.3702260
+Type: Settlement
+IRT868
+IRT869
+IRT870
+
+
+Eastern Djebel: Bir el-Uaar
+Koordinaten lat,long: 32.0484020,13.3202780
+Type: Settlement
+Variant names: Bir al-waar, Al_Urban, Es-Senama
+IRT865
+IRT866
+IRT867
+
+
+Eastern Djebel: Gasr Doga
+Koordinaten lat,long: 32.4878500,13.6988830
+Type: Gasr
+Variant names: Gasr Dughah
+IRT872
+IRT873
+IRT874
+
+
+Eastern Djebel: Sidi bu Laaba
+Koordinaten lat,long: 32.4459230,13.7054180
+Type: Monument
+IRT876
+
+
+Wadi Zemzem: Gasr Chanafes
+Koordinaten lat,long: 30.9000000,14.7333300
+Type: Gasr
+Variant names: Uadi Chanafes,Uadi Chnafes,Uàdi Chanáfes,Uàdi Chnáfes
+IRT904
+IRT905
+
+
+Wadi Zemzem: Ghirza
+Koordinaten lat,long: 30.9503110,14.5562830
+Type: Settlement
+Variant names: Qirzah
+IRT898
+IRT899
+IRT900
+IRT901
+IRT902
+IRT903
+IRT994
+IRT995
+
+
+Eastern Djebel Road: Breviglieri
+Koordinaten lat,long: 32.4500000,13.7666670
+Type: Settlement
+Variant names: Kadra
+IRT938
+IRT939
+
+
+Eastern Djebel Road: Cussabat
+Koordinaten lat,long: 32.5833330,14.0411110
+Type: Road
+IRT935
+
+
+Eastern Djebel Road: Gasr Dellasc
+Koordinaten lat,long: 32.5902870,14.1911200
+Type: Gasr
+IRT932
+IRT933
+
+
+Eastern Djebel Road: Gasr Hammud
+Koordinaten lat,long: 32.6147390,14.2542900
+Type: Gasr
+IRT931
+
+
+Eastern Djebel Road: Wadi Haj All
+Koordinaten lat,long: 32.0445440,12.1645470
+Type: Settlement
+IRT934
+
+
+Upper Sofeggin Basin: Saniet Duib
+Koordinaten lat,long: 31.6512000,12.4666667
+Type: Monument
+Variant names: Saniet Duwayb
+IRT880
+IRT881
+IRT882
+
+
+Upper Sofeggin Basin: Wadi Lella
+Koordinaten lat,long: 31.4333300,13.0333300
+Type: Wadi
+Variant names: Uadi Lella,Uádi Lélla,Wadi Lalla,W?d? L?ll?
+IRT885
+
+
+Oea: Arch of Marcus Aurelius
+Koordinaten lat,long: 32.8999260,13.1757920
+Type: Monument
+Variant names: Gous Arkhamm
+IRT230
+IRT242
+
+
+Oea: Bab el-G'edid
+Koordinaten lat,long: 32.8955560,13.1722220
+Type: Gate
+No Inscriptions
+
+
+Oea: Forte del Faro
+Koordinaten lat,long: 32.9041690,13.1768900
+Type: Fort
+Variant names: ex Forte della Vite
+IRT229
+IRT238
+IRT246
+
+
+Oea: The Forte Spagnola
+Koordinaten lat,long: 32.8960910,13.1803970
+Type: Fort
+No Inscriptions
+
+
+Oea: The Spanish Fort
+Koordinaten lat,long: 32.8960910,13.1803970
+Type: Fort
+IRT234
+IRT257
+
+
+Oea: Tripoli
+Koordinaten lat,long: 32.8976850,13.1755330
+Type: Polis
+Variant names: Oea,Tarables,Tarabulus,Tarabulus al Gharb,Tarabulus el Gharb,Taràbles,Tripoli,Tripolis
+No Inscriptions
+
+
+Oea: En-Ngila
+Koordinaten lat,long: 32.7501480,13.0338550
+Type: Area
+Variant names: En-Ngila,En-Ngìla
+IRT262
+
+
+Sirtica: Sirte
+Koordinaten lat,long: 31.2073000,16.5889000
+Type: Polis
+IRT854
+IRT855
