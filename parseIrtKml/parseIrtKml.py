@@ -21,6 +21,7 @@ for place in root.iter('{http://earth.google.com/kml/2.2}Placemark'):
 		for c in coord:
 			print "Koordinaten lat,long: " + c
 		# get types of placemark, may help in identifying toponyms
+		# haha
 		type = re.findall(r"<h4>(.*)</h4>",description)
 		for t in type:
 			print t.encode('utf-8')
