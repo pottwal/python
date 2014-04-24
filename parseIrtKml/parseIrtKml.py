@@ -6,11 +6,11 @@ tree = ET.parse('irt.kml')
 root = tree.getroot()
 namespaces = {'kml': 'http://earth.google.com/kml/2.2'}
 
-# beim Iterator scheints keinen namespace Parameter zu geben -
-# also Namespace hart codieren
+# there is no namespace parameter for the iterator -
+# => code kml namespace hard
 for place in root.iter('{http://earth.google.com/kml/2.2}Placemark'):
-	# hier interessieren nur Punkte, keine Flächen
-	# => Placemarks ohne Attribut id ignorieren
+	# of interest here are only points, not areas
+	# => ignore Placemarks without attribute id
 	if place.attrib:
 		print "\n" # + place.get('id')
 		print place.find('kml:name',namespaces=namespaces).text.encode('utf-8')
