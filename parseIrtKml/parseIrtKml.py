@@ -12,7 +12,6 @@ for place in root.iter('{http://earth.google.com/kml/2.2}Placemark'):
 	# of interest here are only points, not areas
 	# => ignore Placemarks without attribute id
 	if place.attrib:
-		print "\n" # + place.get('id')
 		print place.find('kml:name',namespaces=namespaces).text.encode('utf-8')
 		#coord = place.find('kml:Point/kml:coordinates',namespaces=namespaces).text
 		#print "long,lat (kml): " + coord.encode('utf-8')
