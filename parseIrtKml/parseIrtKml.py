@@ -20,7 +20,7 @@ for place in root.iter('{http://earth.google.com/kml/2.2}Placemark'):
 		coord = re.findall(r"<h5>Coordinates: (.*)</h5>",description)
 		for c in coord:
 			print "Koordinaten lat,long: " + c
-		# typ ausgeben
+		# get types
 		type = re.findall(r"<h4>(.*)</h4>",description)
 		for t in type:
 			print t.encode('utf-8')
